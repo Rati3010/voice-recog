@@ -1,0 +1,29 @@
+.voice_input_container {
+  width: 100vw;
+  position: fixed;
+  bottom: 10%;
+}
+
+.voice_input {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 20px; 
+}
+
+.voice_input > textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  resize: none;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
